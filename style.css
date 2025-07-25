@@ -512,6 +512,10 @@ flex-direction: column;
 
 }
   @media (max-width: 1024px) {
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
   .deals {
     margin-bottom: 80px; /* a bit less space on smaller screens */
   }
@@ -890,6 +894,9 @@ flex-direction: column;
 .card-text-area{
     margin-bottom: 20px;
 }
+.card button{
+    width: 90%;
+}
 
 
 }
@@ -1014,6 +1021,9 @@ flex-direction: column;
   .flower-store{
     margin: 0 auto;
 
+  }
+  .card button{
+    width: 90%;
   }
 
 }
